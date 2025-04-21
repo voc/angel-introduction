@@ -37,6 +37,8 @@
 \begin{document}
 \maketitle
 
+\input{chapters/general.tex}
+
 \begin{frame}{New Introduction Meeting Format}
 	\begin{itemize}
 		\item We're trying a new way to do this introduction meeting!
@@ -51,12 +53,23 @@
 	\end{itemize}
 \end{frame}
 
-\input{chapters/general.tex}
+
+\section{Angel Roles}
+\input{chapters/angel-av-video.tex}
+\input{chapters/angel-av-cam.tex}
+\input{chapters/angel-voc-avtech.tex}
+\input{chapters/angel-stagemanager.tex}
+\input{chapters/angel-voc-crew.tex}
 
 
-\section{Recap: Audio Hardware}
-\input{chapters/audio-touchmix.tex}
-\input{chapters/audio-headset.tex}
+% \section{Recap: Audio Hardware}
+% \input{chapters/audio-touchmix.tex}
+% \input{chapters/audio-headset.tex}
+
+
+\section{What's Special this Year?}
+\input{chapters/communication.tex}
+\input{chapters/events-38c3.tex}
 
 
 \section{New Features and Setup Specialities}
@@ -66,21 +79,31 @@
 
 
 \section{Contacts and Action Items}
-\input{chapters/contact-general.tex}
-%\input{chapters/contact-congress.tex}
-%\input{chapters/meetings-congress.tex}
+% \input{chapters/contact-general.tex}
+\input{chapters/contact-congress.tex}
+\input{chapters/meetings-congress.tex}
 
 \begin{frame}{Final Notes}
-	\begin{itemize}
-		\item Click "join" on the angel types you want to have
-		\item We will approve all known faces/ nick names now
-		\item New people will be approved after a shadow shift
-		\item Select shifts:
+	\begin{columns}[T,onlytextwidth]
+		\column{0.5\textwidth}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.75\textwidth]{38c3-avangel-matrix.png}
+			\caption{A/V Angel Matrix Room}
+		\end{figure}
+		\column{0.5\textwidth}
+
 		\begin{itemize}
-			\item Fill talks with no angels first
-			\item Take breaks
+			\item Click "join" on the angel types you want to have
+			\item We will approve all known faces/ nick names now
+			\item New people will be approved after a shadow shift
+			\item Select shifts:
+			\begin{itemize}
+				\item Fill talks with no angels first
+				\item Take breaks
+			\end{itemize}
 		\end{itemize}
-	\end{itemize}
+	\end{columns}
 \end{frame}
 
 \end{document}
