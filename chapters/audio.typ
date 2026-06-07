@@ -52,16 +52,16 @@
 #v(30pt)
 
 #grid(
-	columns: (1fr, 1fr),
-	gutter: 10pt,
-    [
-        === headset (best for speakers)
-		#align(center)[#rect(image("../images/photo-headset.jpg", height: 80%), stroke: 4pt + rgb("#176B87"), inset: 1pt, outset: 1pt)]
-	],
-	[
-        === handmic (best for herald)
-		#align(center)[#rect(image("../images/photo-handmic.jpg", height: 80%), stroke: 4pt + rgb("#176B87"), inset: 1pt, outset: 1pt)]
-	]
+  columns: (1fr, 1fr),
+  gutter: 10pt,
+  [
+    === headset (best for speakers)
+    #align(center)[#rect(image("../images/photo-headset.jpg", height: 80%), stroke: 4pt + rgb("#176B87"), inset: 1pt, outset: 1pt)]
+  ],
+  [
+    === handmic (best for herald)
+    #align(center)[#rect(image("../images/photo-handmic.jpg", height: 80%), stroke: 4pt + rgb("#176B87"), inset: 1pt, outset: 1pt)]
+  ]
 
 )
 
@@ -141,7 +141,7 @@
   [
     Mics 1 + 2  are headsets (HS); Mics 3 + 4 are handheld mics (Hand) \
     *Microphones that are unmuted are in the stream and recording!*
-	]
+  ]
 )
 
 #pause
