@@ -38,6 +38,3 @@
         - *Leave a clean desk!!*
     ]
 )
-
-
-
