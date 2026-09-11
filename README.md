@@ -2,7 +2,7 @@
 
 Help! An event just arrived and I need to explain how the VOC setup works. 😱
 
-Don't worry – use `introduction_presentation.pdf` as a generic slides deck for your angel introduction. If you prefer elements on slides NOT to appear step by step but all at once, use `introduction.pdf`.
+Don't worry – use [introduction_presentation.pdf](./introduction_presentation.pdf) as a generic slides deck for your angel introduction. If you prefer elements on slides NOT to appear step by step but all at once, use [introduction.pdf](./introduction.pdf).
 
 Have fun!
 
